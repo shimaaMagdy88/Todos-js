@@ -1,0 +1,45 @@
+body{
+    margin-top: 50px;
+}
+.parent{
+    width: 50%;
+    margin: auto;
+}
+form, #search{
+    border: 1px solid olivedrab;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+form{
+    padding: 30px;
+}
+#search{
+    margin-top: 30px;
+}
+#addProduct{
+    background-color: olivedrab!important;
+    color: white!important;
+}
+#editProduct{
+    color: olivedrab!important;
+    border: 1px solid olivedrab;
+    display: none;
+}
+.table-thead{
+    background-color: olivedrab;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+#update{
+    color: green;
+    padding-right: 20px;
+}
+#delete{
+    color: rgb(174, 36, 11);
+}
